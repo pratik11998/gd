@@ -98,7 +98,7 @@ public void createuser( String email, String password) {
                                  public void onFailure(@NonNull Exception e) {
                                      Toast.makeText(Signup.this,e.getMessage(),Toast.LENGTH_LONG).show();
                                  }
-                             })
+                             });
 
                                         Toast.makeText(Signup.this,"done",Toast.LENGTH_LONG).show();
                                         Intent intent=new Intent(Signup.this,MainActivity.class);
